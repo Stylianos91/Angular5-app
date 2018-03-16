@@ -16,7 +16,7 @@ export class ServerComponent implements OnInit {
 
   constructor() {
     // setTimeout(() => {
-    // this.allowNewServer = true ;
+     this.allowNewServer = true ;
     // }, 2000);    // if Math.random >0.5 then 'online' else 'offline';
     this.serverStatus = Math.random() > 0.5 ? 'online' : 'offline';
   }
